@@ -1,0 +1,181 @@
+html{
+    font-size: 62.5%;
+}
+body{
+  width: 1400px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+h1{
+  font-size: 4.8rem;
+  font-weight: bold;
+  max-width: 100%;
+  color: darkolivegreen;
+  background-color: burlywood;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  max-width: 100%;
+  color: maroon;
+  background-color: #c1d8ac;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  max-width: 100%;
+  color: sienna;
+  background-color: tan;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin: 0 auto;
+  line-height: 3;;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form-title {
+  color: sienna;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.form-item {
+  background-color: #fff;
+  border-color: grey;
+  margin-left: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#petname {
+  background-color: #fff;
+  border-color: grey;
+  margin-left: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 90%;
+}
+#num01 {
+  margin-left: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 90%;
+}
+#vets {
+  margin-left: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 90%;
+}
+button {
+  display: block;
+  width: 300px;
+  height: 60px;
+  margin: 30px 10px;
+  background-color: burlywood;
+  color: sienna;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 60px;
+  text-decoration-line: none;
+}
+button:hover{
+  background-color: sienna;
+  color: burlywood;
+  font-size: 2.4rem;
+}
+.button-send {
+  display: flex;
+  justify-content: center;
+}
+.button-logout {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: sienna;
+}
+#namebox {
+  color: gray;
+  font-size: 2.0rem;
+  margin: 10px auto;
+  height: 50px;
+  width: 400px;
+}
+img {
+  height: 600px;
+  width:400px;
+  border: 2px chocolate solid;
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+  font-size: 0.8rem;
+  color: maroon;
+  text-align: center;
+  margin-top: 30px;
+}
+select {
+  color: sienna;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: burlywood;
+  height: 40px;
+  width: 44%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 44px;
+}
+
+#suggest {
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCFF;
+  font-size: 90%;
+  width: 200px;
+}
+#suggest div {
+  display: block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#suggest div.select{ /* キー上下で選択した場合のスタイル */
+  color: #FFFFFF;
+  background-color: #3366FF;
+}
+#suggest div.over{ /* マウスオーバ時のスタイル */
+  background-color: #99CCFF;
+}
